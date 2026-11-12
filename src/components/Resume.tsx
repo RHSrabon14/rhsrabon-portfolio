@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Download, ExternalLink } from "lucide-react";
 
 export default function Resume() {
-  const pdfUrl = "./public/assets/resume/resume .pdf";
+  const pdfUrl = "./public/assets/resume/resume.pdf";
 
   return (
     <section id="resume" className="py-32 px-6 md:px-12 relative z-10 bg-surface/30">
