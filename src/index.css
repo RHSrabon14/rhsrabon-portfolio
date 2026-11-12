@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+
+body {
+  @apply bg-base text-text font-body antialiased;
+  background-image:
+    radial-gradient(circle at 20% 10%, rgba(79,124,255,0.15), transparent 40%),
+    radial-gradient(circle at 80% 80%, rgba(139,92,246,0.12), transparent 40%);
+}
+
+::selection { background: #4f7cff; color: #fff; }
