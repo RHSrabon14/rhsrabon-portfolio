@@ -82,21 +82,21 @@ export default function Achievements() {
                 <div className="rounded-2xl overflow-hidden border border-white/10 bg-black/40 aspect-video relative group">
                   <video controls className="w-full h-full object-cover">
                     {/* FIXED: Removed /public/ */}
-                    <source src="/public/assets/videos/Clemon_indoor_2022.mp4" type="video/mp4" />
+                    <source src="/assets/videos/Clemon_indoor_2022.mp4" type="video/mp4" />
                   </video>
                 </div>
                 {/* Photos 2022 */}
                 <div className="grid grid-cols-2 gap-4">
                   <div className="col-span-2 rounded-xl overflow-hidden border border-white/10 aspect-video md:aspect-square">
-                    <img src="/public/assets/achievements/clemon_2022_main.jpeg" alt="Cricket 2022" className="w-full h-full object-cover hover:scale-110 transition duration-500" />
+                    <img src="/assets/achievements/clemon_2022_main.jpeg" alt="Cricket 2022" className="w-full h-full object-cover hover:scale-110 transition duration-500" />
                   </div>
                   <div className="rounded-xl overflow-hidden border border-white/10 aspect-square">
                     {/* FIXED: Removed ./public/ and matched exact filename */}
-                    <img src="/public/assets/achievements/clemon_2022_1.jpg" alt="Cricket 2022" className="w-full h-full object-cover hover:scale-110 transition duration-500" />
+                    <img src="/assets/achievements/clemon_2022_1.jpg" alt="Cricket 2022" className="w-full h-full object-cover hover:scale-110 transition duration-500" />
                   </div>
                   <div className="rounded-xl overflow-hidden border border-white/10 aspect-square">
                     {/* FIXED: Removed ./public/ and matched exact filename */}
-                    <img src="/public/assets/achievements/clemon_2022_2.jpg" alt="Cricket 2022" className="w-full h-full object-cover hover:scale-110 transition duration-500" />
+                    <img src="/assets/achievements/clemon_2022_2.jpg" alt="Cricket 2022" className="w-full h-full object-cover hover:scale-110 transition duration-500" />
                   </div>
                 </div>
               </div>
@@ -111,17 +111,17 @@ export default function Achievements() {
                 {/* Photos 2026 */}
                 <div className="grid grid-cols-2 gap-4">
                   <div className="rounded-xl overflow-hidden border border-white/10 aspect-square">
-                    <img src="/public/assets/achievements/clemon_2026_main.jpeg" alt="Cricket 2026" className="w-full h-full object-cover hover:scale-110 transition duration-500" />
+                    <img src="/assets/achievements/clemon_2026_main.jpeg" alt="Cricket 2026" className="w-full h-full object-cover hover:scale-110 transition duration-500" />
                   </div>
                   <div className="rounded-xl overflow-hidden border border-white/10 aspect-square">
-                    <img src="/public/assets/achievements/clemon_2026_1.jpeg" alt="Cricket 2026" className="w-full h-full object-cover hover:scale-110 transition duration-500" />
+                    <img src="/assets/achievements/clemon_2026_1.jpeg" alt="Cricket 2026" className="w-full h-full object-cover hover:scale-110 transition duration-500" />
                   </div>
                 </div>
                 {/* Video 2026 */}
                 <div className="rounded-2xl overflow-hidden border border-white/10 bg-black/40 aspect-video relative group">
                   <video controls className="w-full h-full object-cover">
                     {/* FIXED: Removed ./public/ */}
-                    <source src="/public/assets/videos/Clemon_indoor_2026.mp4" type="video/mp4" />
+                    <source src="/assets/videos/Clemon_indoor_2026.mp4" type="video/mp4" />
                   </video>
                 </div>
               </div>
